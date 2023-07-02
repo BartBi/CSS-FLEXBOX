@@ -4,8 +4,12 @@ body{
 
 .container{
     background: #85929E;
-    padding: 20px;
+    padding: 20px 20px;
     height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
 }
 
 .container div{
@@ -15,15 +19,19 @@ body{
 
 .zolty{
     background: #f4d03f;
-    min-height: 100px;
+    height: 100px;
 }
 
 .zielony{
     background: #58d68d;
-    min-height:250px;
+    height:250px;
+    
+
 }
 
 .niebieski{
     background: #3498DB;
-    min-height: 300px;
+    height: 200px;
+    
+    
 }
